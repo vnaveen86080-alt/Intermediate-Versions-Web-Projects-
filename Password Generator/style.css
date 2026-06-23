@@ -1,0 +1,72 @@
+body{
+    background-color: rgb(10, 10, 82);
+    color: white;
+    opacity: 0.5;
+    
+}
+
+#passContainer{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 10px;
+    /* border: solid; */
+    padding: 20px;
+    width: 80vw;
+    margin: auto;
+}
+
+#rangeSlider{
+    display: block;
+}
+.checkBox{
+    display: block;
+}
+#btnContainer{
+    display: flex;
+    column-gap: 5px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#btnContainer button{
+    box-sizing: border-box;
+    display: block;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+#passValue{
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+    height: 100px;
+    border-radius: 10px;
+    background-color: black;
+}
+
+#ch{
+    display: flex;
+    column-gap: 5px;
+}
+#ch button{
+    display: block;
+    height: 30px;
+    margin-top: 10px;
+    cursor: pointer;
+    
+}
+
+#firstColumn{
+    background-color: rgba(128, 128, 128, 0.292);
+    border-radius: 10px;
+    padding: 10px;
+}
+#container h1{
+    text-align: center;
+}
+#para2{
+    text-align: center;
+}
+
+span{
+    margin-left: 30px;
+}

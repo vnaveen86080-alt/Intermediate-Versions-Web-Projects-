@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="container">
+        <h1>Password Generator</h1>
+        <p id="para2">Generates secure random password with adjustable length and character sets.Built with arrays ,string manipulation and clipboard API</p>
+    </div>
+    <div id="passContainer">
+        <div id="firstColumn">
+        <label for="rangeSlider">Password Length <span>0</span></label>
+        <input id="rangeSlider" type="range" min="0" max="16" value="0">
+        <div>
+            <p>Include Characters</p>
+            <div>
+            <input type="checkbox">
+            <label for="">Lowercase (a-z)</label>
+            </div>
+            <div>
+            <input type="checkbox">
+            <label for="">Uppercase (A-Z)</label>
+            </div>
+            <div>
+            <input type="checkbox">
+            <label for="">Numbers (0-9)</label>
+            </div>
+            <input type="checkbox">
+            <label for="">Symbols (!@#$...)</label>
+
+        </div>
+          <div id="btnContainer">
+            <button id="generate" onclick="generate()">Generate</button>
+            <button>Re-Generate</button>
+          </div>
+    </div>
+    <div>
+        <div id="passValue">
+            <p id="passText"></p>
+            <div id="ch">
+                <button id="copyBtn" onclick="copyText()">Copy</button>
+                <button>Hide</button>
+            </div>
+        </div>
+        <div>
+            <p>Click copy to use the password instantly</p>
+        </div>
+    </div>
+    </div>
+
+    <script src="main.js"></script>
+    
+</body>
+</html>
