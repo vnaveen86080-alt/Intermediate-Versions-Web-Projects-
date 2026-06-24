@@ -1,0 +1,74 @@
+form{
+    border: solid;
+    width: 80vw;
+    margin: auto;
+}
+h1{
+    text-align: center;
+}
+
+#sideHead{
+   text-align: center;
+}
+#show{
+    margin-left: 16px;
+}
+label{
+    display: block;
+    margin-left: 16px;
+    margin-top: 10px;
+}
+#passText{
+    margin-left: 16px;
+}
+
+input{
+    display: block;
+    width: 80%;
+    margin-left: 16px;
+}
+#show{
+    margin-top: 5px;
+}
+/* #checkboxContainer{
+    border: solid;
+} */
+#checkboxContainer label{
+   display: inline;
+   /* border: solid; */
+   margin-left: 0;
+
+}
+
+#checkboxContainer input{
+    width: 10px;
+    display: inline;
+}
+.signRes{
+    margin-top: 20px;
+}
+#range{
+    border: solid 0.1px;
+    height: 5px;
+    border-radius: 10px;
+}
+#rangeSlide{
+    /* border: solid; */
+    height: 100%;
+}
+#emailAlert{
+    color: red;
+    margin-left: 16px;
+    margin-top: 5px;
+    display: none;
+    font-size: 0.5rem;
+}
+#confirmAlert{
+    color: red;
+    margin-left: 16px;
+    margin-top: 5px;
+    display: none;
+    font-size: 0.5rem;
+}
+
+

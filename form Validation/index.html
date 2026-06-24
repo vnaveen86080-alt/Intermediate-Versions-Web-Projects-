@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="/form Validation/style.css">
+</head>
+<body>
+
+    <h1>Form Validation</h1>
+    
+
+    <form action="">
+        <p id="sideHead">Validate signup/login inputs with regexx and DOM events.Real time feedback,password policy and accessible error messages</p>
+        <label for="name">Full Name <sup>*</sup></label>
+        <input type="text" id="name">
+        <label for="email">Email <sup>*</sup></label>
+        <input type="email" id="email" >
+        <p id="emailAlert">Enter a valid email address</p>
+        <label for="password">Password <sup>*</sup></label>
+        <input type="password"> 
+        <button id="show">show</button>
+        <p id="passText">Minimum 8 chars ,include uppercase,lowercase,number and special character</p>
+        <div id="range"><div id="rangeSlide"></div></div>
+        <label for="confirmPass">Confirm Password <sup>*</sup></label>
+        <input type="password" id="confirmPass">
+        <p id="confirmAlert">Enter password correctly</p>
+        <label for="phone">Phone <sup>*</sup></label>
+        <input type="tel">
+        <div id="checkboxContainer">
+        <input type="checkbox" id="check">
+        <label for="check">I agree to the terms <sup>*</sup></label></div>
+        <button class="signRes" id="sign" >Sign Up</button>
+        <button class="signRes">Reset</button>
+
+    </form>
+    <script src="/form Validation/main.js"></script>
+    
+</body>
+</html>
