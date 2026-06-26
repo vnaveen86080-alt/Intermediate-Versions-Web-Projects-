@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Expense Tracker/style.css">
+    <title>Expense Tracker</title>
+</head>
+<body>
+    <button onclick="delLocal()">clearLocal</button>
+    <h2>Expense Tracker</h2>
+
+    <div id="trackerContainer">
+        <div id="categories">
+            <div id="balance">Balance</div>
+            <div id="income">Income</div>
+            <div id="expense">Expense</div>
+        </div>
+        <h3>Add Transaction</h3>
+        <label for="">Description</label>
+        <input type="text" id="description" placeholder="e.g Salary ,Groceries">
+        <label for="">Amount (use - for expense)</label>
+        <input type="text" id="amount" placeholder="e.g 500 or 200">
+        <button onclick="addData()">Add Transaction</button>
+    </div>
+
+    <table>
+        <caption>History</caption>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        
+
+    </table>
+
+    <script src="/Expense Tracker/main.js"></script>
+    
+</body>
+</html>
