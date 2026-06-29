@@ -24,17 +24,31 @@ console.log(productContainer)
 // Henley T-Shirt
 
 let productDetails=[{
-    img:"Images/img(1).jpg",
+    img:"Images/img(1) .jpg",
     name:"Classic Shirt",
     price:1000
 
+},
+{
+    img:"Images/img(2) .jpg",
+    name:"Classic Shirt",
+    price:1000
+},
+{
+     img:"Images/img(3) .jpg",
+    name:"Classic Shirt",
+    price:1000
+},
+{
+     img:"Images/img(4) .jpg",
+    name:"Classic Shirt",
+    price:1000
+},
+{
+    img:"Images/img(5) .jpg",
+    name:"Classic Shirt",
+    price:1000
 }]
-console.log(productDetails[0].img)
-let image=document.createElement("img")
-
-image.src=productDetails[0].img
-
-productContainer.appendChild(image)
 
 
 
