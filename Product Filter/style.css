@@ -1,9 +1,11 @@
 #inputContainer{
     display: flex;
     /* column-gap: 10px; */
+    width: 80vw;
     justify-content: space-around;
-    border: solid;
-    height: 20px;
+    /* border: solid; */
+    height: auto;
+    margin: auto;
 }
 
 #search{
@@ -22,13 +24,14 @@ label,input{
 
 #productContainer{
     display: flex;
-    border: solid;
+    /* border: solid; */
     width: 80vw;
     flex-wrap: wrap;
     gap: 5px;
     margin: auto;
     justify-content: center;
     padding: 10px;
+    margin-top: 10px;
    
 }
 
@@ -36,4 +39,13 @@ img{
     display: block;
     width: 130px;
     height: 130px;
+    border-radius: 5px;
+}
+Select{
+    display: block;
+    /* background-color: red; */
+}
+
+.priceTag{
+  margin-top: 5px;
 }
